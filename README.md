@@ -1,2 +1,2 @@
-# repozytorium-test
-repozytorium testowe
+Jest to repozytorium testowe przed kursem
+
