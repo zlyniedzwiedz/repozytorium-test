@@ -6,10 +6,10 @@ body {
 .list-primary {
   width: fit-content;
   padding: 10px;
-  color: rgb(149, 149, 179);
+  color: rgb(107, 107, 121);
   list-style-position: inside;
 }
 .list-secondary {
   text-align: left;
-  color: rgb(180, 168, 190);
+  color: rgb(189, 178, 197);
 }
