@@ -4,4 +4,6 @@ body {
 .list-primary {
   background-color: aqua;
   text-decoration-color: blueviolet;
+  width: fit-content;
+  padding: 10px;
 }
