@@ -1,12 +1,13 @@
 body {
-  background-color: teal;
+  background-color: rgb(92, 80, 80);
 }
 .list-primary {
-  background-color: aqua;
-  text-decoration-color: blueviolet;
   width: fit-content;
   padding: 10px;
-  text-decoration:rgb(204, 142, 62);
+  color: rgb(149, 149, 179);
   list-style-position: inside;
 }
-.list-secondary
+.list-secondary {
+  text-align: left;
+  color: rgb(180, 168, 190);
+}
