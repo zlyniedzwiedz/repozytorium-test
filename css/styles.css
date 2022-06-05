@@ -25,6 +25,7 @@ body {
   border-top-left-radius: 45px;
   border-bottom-left-radius: 45px;
   flex-grow: 1;
+  box-shadow: 5px 5px 5px rgba(0, 255, 0, 0.5);
 }
 .list-second {
   background-color: rgb(153, 153, 153);
@@ -38,6 +39,7 @@ body {
   border-top-left-radius: 45px;
   border-bottom-left-radius: 45px;
   flex-grow: 1.4;
+   box-shadow: 5px 5px 5px rgba(0, 255, 0, 0.5);
 }
 .list-third {
   background-color: rgb(153, 153, 153);
@@ -51,6 +53,7 @@ body {
   border-top-left-radius: 45px;
   border-bottom-left-radius: 45px;
   flex-grow: 1;
+  box-shadow: 5px 5px 5px rgba(0, 255, 0, 0.5);
 }
 .list-title {
   color: whitesmoke;
