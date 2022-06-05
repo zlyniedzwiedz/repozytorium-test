@@ -32,18 +32,17 @@ body {
 .list-secondary {
   letter-spacing: 5px;
   list-style: circle;
-  line-height: 1.2;
   text-align: left;
   color: var(--listColor);
   margin: 15px;
 }
 
-.list-element:hover {
+.list-element-primary:hover {
   color: beige;
 }
 
-.list-secondary:hover {
-  color: blue;
+.list-element-secondary:hover {
+  color: firebrick;
 }
 :root {
   --listColor: rgb(44, 43, 43);
