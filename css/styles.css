@@ -24,8 +24,12 @@ body {
   letter-spacing: 5px;
   text-shadow: 2px 2px 4px #000000, 5px 5px 5px #000000, 5px 5px 5px #000000;
   font-family: "Permanent Marker", cursive;
-  padding-top: 15px;
+  padding-top: 10px;
   text-align: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+
 }
 .list-primary {
   font-size: 20px;
@@ -36,6 +40,8 @@ body {
   list-style-position: inside;
   font-size: 25px;
   font-style: italic;
+  margin-right: auto;
+
 }
 .list-secondary {
   font-size: 16px;
