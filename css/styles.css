@@ -52,6 +52,17 @@ body {
   margin-right: auto;
 }
 .list-secondary {
+  font-size: 20px;
+  list-style: disc;
+  width: fit-content;
+  padding: 10px;
+  color: var(--listColor);
+  list-style-position: inside;
+  font-size: 25px;
+  font-style: italic;
+  margin-right: auto;
+}
+.list-tertiary {
   font-size: 16px;
   letter-spacing: 5px;
   list-style: circle;
@@ -61,21 +72,26 @@ body {
   display: block;
   margin-left: auto;
 }
+.list-element-secondary-last:hover,
 .list-element-primary-last:hover,
-.list-element-primary:hover {
-  color: beige;
+.list-element-primary:hover,
+.list-element-secondary:hover {
+  color: rgb(241, 241, 210);
 }
 
-.list-primary .list-element-secondary:hover {
-  color: firebrick;
+.list-primary .list-element-tertiary:hover {
+  color: rgb(0, 255, 170);
+}
+.list-secondary .list-element-tertiary:hover {
+  color: rgb(255, 0, 255);
 }
 :root {
   --listColor: rgb(44, 43, 43);
 }
 
 li::selection {
-  background-color: red;
-  color: white;
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
 }
 .list-element-primary:nth-child(odd) {
   text-shadow: 1px 1px 1px #000;
