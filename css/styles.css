@@ -67,3 +67,6 @@ li::selection {
   background-color: red;
   color: white;
 }
+.list-element-primary:nth-child(odd) {
+  text-shadow: 1px 1px 1px #000;
+}
