@@ -14,22 +14,20 @@ body {
   box-shadow: 10px 10px 10px rgb(0, 0, 0);
   border-radius: 7px;
   margin: 25px 25px 25px 0px;
-  
 }
 #sidebar-nav {
   width: 360px;
- background-image: url(/images/background-image-dark.jpg);
+  background-image: url(/images/background-image-dark.jpg);
   color: rgb(255, 255, 255);
   padding: 10px 15px;
   box-shadow: -10px 10px 10px rgb(0, 0, 0);
-  border-radius: 7px;
+  border-radius: 10px;
   position: fixed;
   top: 50px;
   right: -340px;
   z-index: 99999;
   transition: left 2s ease-out 3s;
 }
-
 
 #sidebar-nav:hover {
   right: 0;
@@ -85,6 +83,7 @@ body {
   padding: 10px;
   color: var(--listColor);
   list-style-position: inside;
+  list-style-image: url(/images/viking-icon.png);
   font-size: 25px;
   font-style: italic;
   margin-right: 0;
@@ -92,10 +91,10 @@ body {
 .list-secondary {
   font-size: 20px;
   list-style: disc;
-
   padding: 10px;
   color: var(--listColor);
   list-style-position: inside;
+  list-style-image: url(/images/viking-icon.png);
   font-size: 25px;
   font-style: italic;
   margin-right: 0;
@@ -112,8 +111,10 @@ body {
 }
 .list-element-primary-last {
   list-style-type: none;
+  list-style-image: none;
 }
 .list-element-secondary-last {
+  list-style-image: none;
   list-style-type: none;
 }
 .list-element-secondary-last:hover,
@@ -148,10 +149,7 @@ a:hover:not(.active) {
   background-color: #555;
   color: white;
 }
-li a.active {
-  background-color: #04AA6D;
-  color: white;
-}
+
 li a {
   display: block;
   color: rgb(255, 255, 255);
