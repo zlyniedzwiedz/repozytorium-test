@@ -1,6 +1,6 @@
 body {
   background-color: rgb(95, 76, 76);
-  line-height: 1.5;
+  line-height: 1.01;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .lists {
@@ -20,8 +20,8 @@ body {
   font-family: "Permanent Marker", cursive;
 }
 .list-primary {
+  font-size: 20px;
   list-style: disc;
-  line-height: 1.1;
   width: fit-content;
   padding: 10px;
   color: var(--listColor);
@@ -30,6 +30,7 @@ body {
   font-style: italic;
 }
 .list-secondary {
+  font-size: 16px;
   letter-spacing: 5px;
   list-style: circle;
   text-align: left;
