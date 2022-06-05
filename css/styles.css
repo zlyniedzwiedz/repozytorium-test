@@ -25,18 +25,18 @@ body {
   text-transform: uppercase;
 }
 .cards {
-  display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  flex-basis: calc(((100% - 20px) / 3));
-  justify-content: space-between;
-  margin: 25px;
-  align-self: normal;
-  
+  gap: 100px;
+  flex-basis: 400px;
+  justify-items: space-between;
+  margin-top: 25px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 25px
 }
 .list {
   background-color: rgb(153, 153, 153);
-  box-sizing: border-box;
+
   padding-left: 75px;
   padding-right: 25px;
   border: 7px double blueviolet;
@@ -44,7 +44,6 @@ body {
   border-bottom-right-radius: 45px;
   border-top-left-radius: 45px;
   border-bottom-left-radius: 45px;
-  flex-grow: 1;
   box-shadow: 5px 5px 5px rgba(0, 255, 0, 0.5);
 }
 
