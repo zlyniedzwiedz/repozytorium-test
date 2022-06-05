@@ -9,7 +9,7 @@ body {
   width: 540px;
   padding-left: 10px;
   padding-right: 10px;
-  border: 7px dotted blueviolet;
+  border: 7px double blueviolet;
   border-top-right-radius: 45px;
   border-bottom-right-radius: 45px;
   border-top-left-radius: 45px;
@@ -29,7 +29,6 @@ body {
   display: block;
   margin-right: auto;
   margin-left: auto;
-
 }
 .list-primary {
   font-size: 20px;
@@ -41,7 +40,6 @@ body {
   font-size: 25px;
   font-style: italic;
   margin-right: auto;
-
 }
 .list-secondary {
   font-size: 16px;
@@ -50,8 +48,10 @@ body {
   text-align: left;
   color: var(--listColor);
   margin: 15px;
+  display: block;
+  margin-left: auto;
 }
-
+.list-element-primary-last:hover,
 .list-element-primary:hover {
   color: beige;
 }
