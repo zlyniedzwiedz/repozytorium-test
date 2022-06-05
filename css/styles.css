@@ -9,7 +9,7 @@ body {
 .sidebar {
   background-color: rgb(177, 177, 177);
   color: rgb(255, 255, 255);
-  width: 250px;
+
   padding: 10px 15px;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -23,8 +23,6 @@ body {
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 4px #000000, 5px 5px 5px #000000, 5px 5px 5px #000000;
   text-transform: uppercase;
-}
-.sidebar {
 }
 .cards {
   display: flex;
@@ -87,14 +85,14 @@ body {
   font-family: "Permanent Marker", cursive;
   padding-top: 10px;
   text-align: center;
-  display: block;
+  display: flex;
   margin-right: auto;
   margin-left: auto;
 }
 .list-primary {
   font-size: 20px;
   list-style: disc;
-  width: 250px;
+
   padding: 10px;
   color: var(--listColor);
   list-style-position: inside;
@@ -105,7 +103,7 @@ body {
 .list-secondary {
   font-size: 20px;
   list-style: disc;
-  width: 250px;
+
   padding: 10px;
   color: var(--listColor);
   list-style-position: inside;
@@ -122,6 +120,12 @@ body {
   margin: 15px;
   display: block;
   margin-left: 0;
+}
+.list-element-primary-last {
+  list-style-type: none;
+}
+.list-element-secondary-last {
+  list-style-type: none;
 }
 .list-element-secondary-last:hover,
 .list-element-primary-last:hover,
