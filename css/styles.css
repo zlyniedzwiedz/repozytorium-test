@@ -127,3 +127,7 @@ li::selection {
 .list-element-primary:nth-child(odd) {
   text-shadow: 1px 1px 1px #000;
 }
+.sidebar {}
+
+.content {}
+.container{}
