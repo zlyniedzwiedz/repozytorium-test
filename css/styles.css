@@ -10,6 +10,8 @@ body {
 .list-title {
   color: whitesmoke;
   font-size: 45px;
+  font-weight: 900;
+  font-style: italic;
   text-transform: uppercase;
   letter-spacing: 10px;
   text-shadow: 2px 2px 4px #000000, 5px 5px 5px #000000, 5px 5px 5px #000000;
@@ -41,4 +43,9 @@ body {
 }
 :root {
   --listColor: rgb(44, 43, 43);
+}
+
+li::selection {
+  background-color: red;
+  color: white;
 }
