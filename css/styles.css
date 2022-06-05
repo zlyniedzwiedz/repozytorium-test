@@ -6,31 +6,35 @@ body {
 .wrapper {
   display: flex;
 }
-.sidebar-left {
-  flex-basis: 400px;
+#sidebar-left {
+  width: 360px;
   background-color: rgb(177, 177, 177);
   color: rgb(255, 255, 255);
   padding: 10px 15px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: 0px;
-  margin-right: 0px;
-  box-shadow: 10px 10px 10px rgb(63, 133, 109);
-  border-radius: 25px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  border-radius: 7px;
+  margin: 25px 25px 25px 0px;
+  
 }
-.sidebar-right{
-    flex-basis: 400px;
+#sidebar-nav {
+  width: 360px;
   background-color: rgb(177, 177, 177);
   color: rgb(255, 255, 255);
   padding: 10px 15px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: 0px;
-  margin-right: 0px;
-  box-shadow: -10px 10px 10px rgb(63, 133, 109);
-  border-radius: 25px;
+  box-shadow: -10px 10px 10px rgb(0, 0, 0);
+  border-radius: 7px;
+  position: fixed;
+  top: 50px;
+  right: -340px;
+  z-index: 99999;
+  transition: left 2s ease-out 3s;
+}
 
+
+#sidebar-nav:hover {
+  right: 0;
 }
+
 .sidebar-title {
   text-align: center;
   color: rgb(255, 255, 255);
@@ -39,24 +43,23 @@ body {
 }
 .cards {
   flex-wrap: wrap;
-  gap: 100px;
-  flex-basis: auto;
+  flex-basis: calc();
   justify-items: space-between;
   margin-top: 25px;
   margin-left: 40px;
   margin-right: 40px;
-  margin-bottom: 25px
+  margin-bottom: 25px;
 }
 .list {
   background-color: rgb(153, 153, 153);
 
   padding-left: 75px;
   padding-right: 25px;
-  border: 7px double blueviolet;
-  border-top-right-radius: 45px;
-  border-bottom-right-radius: 45px;
-  border-top-left-radius: 45px;
-  border-bottom-left-radius: 45px;
+  border: 1.5px double blueviolet;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
   box-shadow: 5px 5px 5px rgba(0, 255, 0, 0.5);
 }
 
@@ -137,4 +140,7 @@ li::selection {
 .list-element-secondary:nth-child(odd),
 .list-element-primary:nth-child(odd) {
   text-shadow: 1px 1px 1px #000;
+}
+#navigation-list {
+  list-style-type: none;
 }
