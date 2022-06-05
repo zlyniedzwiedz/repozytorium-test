@@ -2,6 +2,8 @@ body {
   background-color: rgb(95, 76, 76);
   line-height: 1.01;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  flex-wrap: nowrap;
 }
 .lists {
   background-color: rgb(153, 153, 153);
@@ -27,7 +29,7 @@ body {
   padding-top: 10px;
   text-align: center;
   display: block;
-  margin-right: auto;
+  margin-right: 0;
   margin-left: auto;
 }
 .list-primary {
@@ -39,7 +41,7 @@ body {
   list-style-position: inside;
   font-size: 25px;
   font-style: italic;
-  margin-right: auto;
+  margin-right: 0;
 }
 .list-secondary {
   font-size: 16px;
@@ -56,7 +58,7 @@ body {
   color: beige;
 }
 
-.list-element-secondary:hover {
+.list-primary .list-element-secondary:hover {
   color: firebrick;
 }
 :root {
