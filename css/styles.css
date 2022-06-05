@@ -9,8 +9,11 @@ body {
   width: 540px;
   padding-left: 10px;
   padding-right: 10px;
-  border: 15px double blueviolet;
-  
+  border: 7px dotted blueviolet;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
 }
 .list-title {
   color: whitesmoke;
@@ -18,10 +21,11 @@ body {
   font-weight: 900;
   font-style: italic;
   text-transform: uppercase;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   text-shadow: 2px 2px 4px #000000, 5px 5px 5px #000000, 5px 5px 5px #000000;
   font-family: "Permanent Marker", cursive;
   padding-top: 15px;
+  text-align: center;
 }
 .list-primary {
   font-size: 20px;
