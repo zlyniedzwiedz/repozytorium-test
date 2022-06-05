@@ -6,6 +6,7 @@ body {
 .lists {
   background-color: rgb(153, 153, 153);
   width: fit-content;
+
 }
 .list-title {
   color: whitesmoke;
@@ -15,6 +16,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 10px;
   text-shadow: 2px 2px 4px #000000, 5px 5px 5px #000000, 5px 5px 5px #000000;
+    font-family: 'Permanent Marker', cursive;
 }
 .list-primary {
   list-style: disc;
