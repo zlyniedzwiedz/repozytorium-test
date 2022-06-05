@@ -2,21 +2,21 @@ body {
   background-color: rgb(95, 76, 76);
   line-height: 1.01;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  display: flex;
-  flex-wrap: wrap-reverse;
 }
 .cards {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   flex-basis: calc((100% - 20px) / 3);
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin: 30px;
+  display: flex;
+  flex-wrap: wrap-reverse;
 }
-.lists {
+.list {
   background-color: rgb(153, 153, 153);
   box-sizing: border-box;
-  width: 540px;
+
   padding-left: 10px;
   padding-right: 10px;
   border: 7px double blueviolet;
@@ -24,6 +24,33 @@ body {
   border-bottom-right-radius: 45px;
   border-top-left-radius: 45px;
   border-bottom-left-radius: 45px;
+  flex-grow: 1;
+}
+.list-second {
+  background-color: rgb(153, 153, 153);
+  box-sizing: border-box;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 7px double blueviolet;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+  flex-grow: 1.4;
+}
+.list-third {
+  background-color: rgb(153, 153, 153);
+  box-sizing: border-box;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 7px double blueviolet;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+  flex-grow: 1;
 }
 .list-title {
   color: whitesmoke;
@@ -93,6 +120,7 @@ li::selection {
   background-color: rgb(255, 0, 0);
   color: rgb(255, 255, 255);
 }
+.list-element-secondary:nth-child(even),
 .list-element-primary:nth-child(odd) {
   text-shadow: 1px 1px 1px #000;
 }
