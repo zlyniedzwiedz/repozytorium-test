@@ -7,9 +7,9 @@ body {
   display: flex;
 }
 .sidebar {
+  width: 400px;
   background-color: rgb(177, 177, 177);
   color: rgb(255, 255, 255);
-
   padding: 10px 15px;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -31,13 +31,14 @@ body {
   flex-basis: calc((100% - 20px) / 3);
   justify-content: space-between;
   margin: 25px;
-  align-self: flex-start;
+  align-self: normal;
+  
 }
 .list {
   background-color: rgb(153, 153, 153);
   box-sizing: border-box;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 75px;
+  padding-right: 25px;
   border: 7px double blueviolet;
   border-top-right-radius: 45px;
   border-bottom-right-radius: 45px;
@@ -46,34 +47,7 @@ body {
   flex-grow: 1;
   box-shadow: 5px 5px 5px rgba(0, 255, 0, 0.5);
 }
-.list-second {
-  background-color: rgb(153, 153, 153);
-  box-sizing: border-box;
 
-  padding-left: 10px;
-  padding-right: 10px;
-  border: 7px double blueviolet;
-  border-top-right-radius: 45px;
-  border-bottom-right-radius: 45px;
-  border-top-left-radius: 45px;
-  border-bottom-left-radius: 45px;
-  flex-grow: 1.5;
-  box-shadow: 5px 5px 5px rgba(0, 255, 0, 0.5);
-}
-.list-third {
-  background-color: rgb(153, 153, 153);
-  box-sizing: border-box;
-
-  padding-left: 10px;
-  padding-right: 10px;
-  border: 7px double blueviolet;
-  border-top-right-radius: 45px;
-  border-bottom-right-radius: 45px;
-  border-top-left-radius: 45px;
-  border-bottom-left-radius: 45px;
-  flex-grow: 1;
-  box-shadow: 5px 5px 5px rgba(0, 255, 0, 0.5);
-}
 .list-title {
   color: whitesmoke;
   font-size: 45px;
