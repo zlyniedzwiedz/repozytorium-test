@@ -9,6 +9,7 @@ body {
   width: 540px;
   padding-left: 10px;
   padding-right: 10px;
+  border: 15px double blueviolet;
   
 }
 .list-title {
