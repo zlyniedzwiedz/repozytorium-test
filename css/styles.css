@@ -9,24 +9,29 @@ body {
 }
 .list-title {
   color: whitesmoke;
-  
 }
 .list-primary {
-  line-height: 1.3;
+  list-style: disc;
+  line-height: 1.1;
   width: fit-content;
   padding: 10px;
-  color: rgb(107, 107, 121);
+  color: var(--listColor);
   list-style-position: inside;
 }
 .list-secondary {
+  list-style: disc;
+  line-height: 1.2;
   text-align: left;
-  color: rgb(189, 178, 197);
+  color: var(--listColor);
 }
-.list-primary:focus,
+
 .list-primary:hover {
   color: beige;
 }
-.list-secondary:focus,
+
 .list-secondary:hover {
   color: blue;
+}
+:root {
+  --listColor: grey;
 }
