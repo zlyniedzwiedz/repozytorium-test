@@ -5,6 +5,11 @@ body {
   display: flex;
   flex-wrap: wrap-reverse;
 }
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 .lists {
   background-color: rgb(153, 153, 153);
   box-sizing: border-box;
