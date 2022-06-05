@@ -10,8 +10,11 @@ body {
 .list-title {
   color: whitesmoke;
   font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
 }
 .list-primary {
+  
   list-style: disc;
   line-height: 1.1;
   width: fit-content;
@@ -22,6 +25,7 @@ body {
   font-style: italic;
 }
 .list-secondary {
+  letter-spacing: 5px;
   list-style: circle;
   line-height: 1.2;
   text-align: left;
