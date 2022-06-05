@@ -1,7 +1,30 @@
 body {
   background-color: rgb(95, 76, 76);
-  line-height: 1.01;
+  line-height: 1.5;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.wrapper {
+  display: flex;
+}
+.sidebar {
+  background-color: rgb(177, 177, 177);
+  color: rgb(255, 255, 255);
+  width: 250px;
+  padding: 10px 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+  box-shadow: 10px 10px 10px rgb(63, 133, 109);
+  border-radius: 25px;
+}
+.sidebar-title {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px #000000, 5px 5px 5px #000000, 5px 5px 5px #000000;
+  text-transform: uppercase;
+}
+.sidebar {
 }
 .cards {
   display: flex;
@@ -9,14 +32,12 @@ body {
   gap: 10px;
   flex-basis: calc((100% - 20px) / 3);
   justify-content: space-between;
-  margin: 30px;
-  display: flex;
-  flex-wrap: wrap-reverse;
+  margin: 25px;
+  align-self: flex-start;
 }
 .list {
   background-color: rgb(153, 153, 153);
   box-sizing: border-box;
-
   padding-left: 10px;
   padding-right: 10px;
   border: 7px double blueviolet;
@@ -38,8 +59,8 @@ body {
   border-bottom-right-radius: 45px;
   border-top-left-radius: 45px;
   border-bottom-left-radius: 45px;
-  flex-grow: 1.4;
-   box-shadow: 5px 5px 5px rgba(0, 255, 0, 0.5);
+  flex-grow: 1.5;
+  box-shadow: 5px 5px 5px rgba(0, 255, 0, 0.5);
 }
 .list-third {
   background-color: rgb(153, 153, 153);
@@ -73,24 +94,24 @@ body {
 .list-primary {
   font-size: 20px;
   list-style: disc;
-  width: fit-content;
+  width: 250px;
   padding: 10px;
   color: var(--listColor);
   list-style-position: inside;
   font-size: 25px;
   font-style: italic;
-  margin-right: auto;
+  margin-right: 0;
 }
 .list-secondary {
   font-size: 20px;
   list-style: disc;
-  width: fit-content;
+  width: 250px;
   padding: 10px;
   color: var(--listColor);
   list-style-position: inside;
   font-size: 25px;
   font-style: italic;
-  margin-right: auto;
+  margin-right: 0;
 }
 .list-tertiary {
   font-size: 16px;
@@ -100,7 +121,7 @@ body {
   color: var(--listColor);
   margin: 15px;
   display: block;
-  margin-left: auto;
+  margin-left: 0;
 }
 .list-element-secondary-last:hover,
 .list-element-primary-last:hover,
@@ -127,7 +148,3 @@ li::selection {
 .list-element-primary:nth-child(odd) {
   text-shadow: 1px 1px 1px #000;
 }
-.sidebar {}
-
-.content {}
-.container{}
