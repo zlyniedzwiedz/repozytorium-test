@@ -3,7 +3,7 @@ body {
   line-height: 1.01;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap-reverse;
 }
 .lists {
   background-color: rgb(153, 153, 153);
@@ -29,7 +29,7 @@ body {
   padding-top: 10px;
   text-align: center;
   display: block;
-  margin-right: 0;
+  margin-right: auto;
   margin-left: auto;
 }
 .list-primary {
@@ -41,7 +41,7 @@ body {
   list-style-position: inside;
   font-size: 25px;
   font-style: italic;
-  margin-right: 0;
+  margin-right: auto;
 }
 .list-secondary {
   font-size: 16px;
