@@ -63,12 +63,14 @@ body {
   margin-right: 120px;
   margin-bottom: 60px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  align-items:flex-start;
   
   
 }
 .list {
+  display: inline-block;
   background-color: rgb(88, 82, 82);
   padding-left: 75px;
   padding-right: 25px;
@@ -81,7 +83,6 @@ body {
   background-image: url(/images/viking-icon.svg);
   background-size: auto;
   background-repeat: no-repeat;
-  background-position: right;
   margin-bottom: 60px;
   box-sizing: border-box;
   min-height: 650px;
@@ -96,9 +97,8 @@ body {
   text-transform: uppercase;
   letter-spacing: 5px;
   text-shadow: 2px 2px 4px #000000, 5px 5px 5px #000000, 5px 5px 5px #000000;
-  font-family: "Permanent Marker", cursive;
   padding: 10px 25px 5px 10px;
-  text-align: center;
+  text-align:left
   
   
 }
@@ -112,7 +112,8 @@ body {
   list-style-image: url(/images/viking-icon.png);
   font-size: 25px;
   font-style: italic;
-  margin-right: 0;
+  margin-right: auto;
+
 
 }
 .list-secondary {
@@ -124,8 +125,8 @@ body {
   list-style-image: url(/images/viking-icon.png);
   font-size: 25px;
   font-style: italic;
-  margin-right: 0;
-  
+  margin-left: auto;
+    
 }
 .list-tertiary {
   font-size: 16px;
@@ -200,7 +201,7 @@ li a {
 .list-footer {
   display: flex;
   color: #fff;
-  justify-content: center;
+  justify-content: right;
 
 
 }
@@ -210,5 +211,14 @@ li a {
 }
 .list > .list-primary:hover {
   background-color:rgba(233, 224, 224, 0.5);
+
+}
+#to-do-list,
+#second-to-do-list {
+  background-position: left;
+}
+#shopping-list, 
+#second-shopping-list {
+  background-position: right;
 
 }
