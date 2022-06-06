@@ -19,7 +19,7 @@ body {
   box-shadow: 10px 10px 10px rgb(0, 0, 0);
   border-radius: 1px;
   margin: 25px 25px 25px 0px;
-  
+
   top: 40px;
   left: -340px;
   z-index: 99999;
@@ -57,14 +57,15 @@ body {
   text-transform: uppercase;
 }
 .cards {
+  max-width: 85%;
+  margin-top: 60px;
+  margin-left: 30px;
+  margin-right: 120px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  flex-basis: calc(100% - 30px /3);
-  max-width: 80%;
-margin-top: 60px;
-margin-left: 30px;
-margin-right: 120px;
-margin-bottom: 60px;
-
+  
 }
 .list {
   background-color: rgb(88, 82, 82);
@@ -77,26 +78,28 @@ margin-bottom: 60px;
   border-bottom-left-radius: 15px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   background-image: url(/images/viking-icon.svg);
-background-size: auto;
-background-repeat: no-repeat;
-background-position: right;
-margin-bottom: 60px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-bottom: 60px;
+  box-sizing: border-box;
+  min-height: 650px;
+  min-width: 60%;
+  
 }
 
 .list-title {
   color: whitesmoke;
   font-size: 45px;
-  font-weight: 900;
-  font-style: italic;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
   text-shadow: 2px 2px 4px #000000, 5px 5px 5px #000000, 5px 5px 5px #000000;
   font-family: "Permanent Marker", cursive;
-  padding-top: 10px;
+  padding: 10px 25px 5px 10px;
   text-align: center;
-  display: flex;
-  margin-right: auto;
-  margin-left: auto;
+  
+  
 }
 .list-primary {
   font-size: 20px;
@@ -109,7 +112,7 @@ margin-bottom: 60px;
   font-size: 25px;
   font-style: italic;
   margin-right: 0;
-  
+
 }
 .list-secondary {
   font-size: 20px;
@@ -121,6 +124,7 @@ margin-bottom: 60px;
   font-size: 25px;
   font-style: italic;
   margin-right: 0;
+  
 }
 .list-tertiary {
   font-size: 16px;
@@ -178,4 +182,24 @@ li a {
   color: rgb(255, 255, 255);
   padding: 8px 16px;
   text-decoration: none;
+}
+.list > .list-primary {
+  background-color: rgba(233, 224, 224, 0.3);
+  background-image: none;
+  max-width: 70%;
+  border-radius: 5%;
+}
+.list > .list-secondary {
+  background-color: rgba(233, 224, 224, 0.3);
+  background-image: none;
+  max-width: 70%;
+
+  border-radius: 5%;
+}
+.list-footer {
+  display: flex;
+  color: #fff;
+  justify-content: center;
+
+
 }
