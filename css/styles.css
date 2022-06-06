@@ -2,10 +2,14 @@ body {
   background-color: rgb(95, 76, 76);
   line-height: 1.5;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+}
+.container-fluid {
+  height: auto;
   background-image: url(/images/site-background.jpg);
   background-attachment: fixed;
-  background-size: cover;
-}
+  background-position: center; }
+
 .wrapper {
   display: flex;
   
@@ -75,15 +79,12 @@ body {
 }
 .list {
   display: inline-block;
-  background-color: rgb(88, 82, 82);
+  background-color: rgba(88, 82, 82, 0.0);
   padding-left: 75px;
   padding-right: 25px;
-  border: 1.5px double rgb(34, 25, 43);
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+
+  
   background-image: url(/images/viking-icon.svg);
   background-size: auto;
   background-repeat: no-repeat;
