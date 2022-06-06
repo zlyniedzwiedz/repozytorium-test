@@ -1,6 +1,5 @@
 html {
   scroll-behavior: smooth;
-
 }
 body {
   background-color: rgb(95, 76, 76);
@@ -9,11 +8,9 @@ body {
   background-image: url(/images/site-background.webp);
   background-attachment: fixed;
   background-size: cover;
-  
 }
 .wrapper {
   display: flex;
-  
 }
 #sidebar-left {
   width: 360px;
@@ -74,25 +71,22 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  align-items:flex-start;
-  
-  
+  align-items: flex-start;
 }
 .list {
   display: inline-block;
   background-color: transparent;
   padding-left: 75px;
   padding-right: 25px;
- 
+
   background-image: url(/images/viking-icon.svg);
   background-size: auto;
   background-repeat: no-repeat;
-   background-position: center;
+  background-position: center;
   margin-bottom: 60px;
   box-sizing: border-box;
   min-height: 650px;
   min-width: 100%;
-  
 }
 
 .list-title {
@@ -103,9 +97,7 @@ body {
   letter-spacing: 5px;
   text-shadow: 2px 2px 4px #000000, 5px 5px 5px #000000, 5px 5px 5px #000000;
   padding: 10px 25px 5px 10px;
-  text-align:left
-  
-  
+  text-align: left;
 }
 .list-primary {
   font-size: 20px;
@@ -119,8 +111,6 @@ body {
   font-style: italic;
   margin-right: auto;
   margin-left: 15px;
-
-
 }
 .list-secondary {
   font-size: 20px;
@@ -133,7 +123,6 @@ body {
   font-style: italic;
   margin-left: auto;
   margin-right: 15px;
-    
 }
 .list-tertiary {
   font-size: 16px;
@@ -209,25 +198,20 @@ li a {
   display: flex;
   color: #fff;
   justify-content: right;
-
-
 }
 .list > .list-secondary:hover {
-  background-color:rgba(233, 224, 224, 0.5);
-
+  background-color: rgba(233, 224, 224, 0.5);
 }
 .list > .list-primary:hover {
-  background-color:rgba(233, 224, 224, 0.5);
-
+  background-color: rgba(233, 224, 224, 0.5);
 }
 #to-do-list,
 #second-to-do-list {
   background-position: left;
 }
-#shopping-list, 
+#shopping-list,
 #second-shopping-list {
   background-position: right;
-
 }
 .button {
   background-color: transparent;
@@ -239,21 +223,25 @@ li a {
   font-size: 16px;
   margin: 4px 2px;
   border-radius: 12px;
- 
-  
-cursor: pointer;
+
+  cursor: pointer;
   outline: none;
   color: #fff;
   background-color: #777373;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
-
 }
-.button:hover {background-color: #9e9e9e}
+.button:hover {
+  background-color: #9e9e9e;
+}
 
 .button:active {
   background-color: #777373;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+.image-nac {
+  height: 32px;
+  width: 32px;
 }
