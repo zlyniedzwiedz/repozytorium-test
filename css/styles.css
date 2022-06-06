@@ -12,18 +12,20 @@ body {
 }
 #sidebar-left {
   width: 360px;
-  height: 900px;
+  height: 600px;
+  background-image: url(/images/background-image-dark.jpg);
   background-color: rgba(255, 255, 255, 30%);
+  background-size: cover;
   color: rgb(255, 255, 255);
   padding: 10px 15px;
-  box-shadow: 10px 10px 10px rgb(0, 0, 0);
-  border-radius: 1px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0, 45%);
+  border-radius: 10px;
   margin: 25px 25px 25px 0px;
-
   top: 40px;
   left: -340px;
   z-index: 99999;
   transition: right 2s ease-out 3s;
+  position: fixed;
 }
 #sidebar-nav {
   width: 360px;
@@ -33,7 +35,7 @@ body {
   background-color: #fff;
   color: rgb(255, 255, 255);
   padding: 10px 15px;
-  box-shadow: -10px 10px 10px rgba(0, 0, 0, 30%);
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 45%);
   border-radius: 10px;
   position: fixed;
   top: 40px;
@@ -59,11 +61,11 @@ body {
 .cards {
   max-width: 95%;
   margin-top: 60px;
-  margin-left: 30px;
+  margin-left: 120px;
   margin-right: 120px;
   margin-bottom: 60px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
   align-items:flex-start;
   
@@ -113,6 +115,7 @@ body {
   font-size: 25px;
   font-style: italic;
   margin-right: auto;
+  margin-left: 15px;
 
 
 }
@@ -126,6 +129,7 @@ body {
   font-size: 25px;
   font-style: italic;
   margin-left: auto;
+  margin-right: 15px;
     
 }
 .list-tertiary {
