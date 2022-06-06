@@ -241,7 +241,7 @@ li a {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-.image-nav {
+#image-nav {
   height: 32px;
   width: 32px;
 }
