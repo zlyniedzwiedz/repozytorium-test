@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+
+}
 body {
   background-color: rgb(95, 76, 76);
   line-height: 1.5;
@@ -5,7 +9,7 @@ body {
   background-image: url(/images/site-background.jpg);
   background-attachment: fixed;
   background-size: cover;
-  scroll-behavior: smooth;
+  
 }
 .wrapper {
   display: flex;
