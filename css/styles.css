@@ -30,6 +30,7 @@ body {
   height: 600px;
   background-image: url(/images/background-image-dark.jpg);
   background-size: cover;
+  background-color: #fff;
   color: rgb(255, 255, 255);
   padding: 10px 15px;
   box-shadow: -10px 10px 10px rgba(0, 0, 0, 30%);
