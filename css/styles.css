@@ -59,6 +59,7 @@ body {
 .cards {
   flex-wrap: wrap;
   flex-basis: calc(100% - 30px /3);
+  max-width: 80%;
 margin-top: 60px;
 margin-left: 30px;
 margin-right: 120px;
@@ -79,6 +80,7 @@ margin-bottom: 60px;
 background-size: auto;
 background-repeat: no-repeat;
 background-position: right;
+margin-bottom: 60px;
 }
 
 .list-title {
@@ -107,6 +109,7 @@ background-position: right;
   font-size: 25px;
   font-style: italic;
   margin-right: 0;
+  
 }
 .list-secondary {
   font-size: 20px;
