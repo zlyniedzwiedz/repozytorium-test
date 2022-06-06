@@ -65,10 +65,10 @@ margin-bottom: 60px;
 
 }
 .list {
-  background-color: rgb(153, 153, 153);
+  background-color: rgb(88, 82, 82);
   padding-left: 75px;
   padding-right: 25px;
-  border: 1.5px double blueviolet;
+  border: 1.5px double rgb(34, 25, 43);
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   border-top-left-radius: 15px;
