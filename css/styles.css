@@ -1,6 +1,12 @@
 html {
   scroll-behavior: smooth;
 }
+:root {
+  --listColor: rgb(44, 43, 43);
+  --listBackgroundMain: rgba(233, 224, 224, 0.3);
+  --listBackgroundHover: rgba(233, 224, 224, 0.6);
+  --listBackgroundSec: rgba(0, 0, 0, 0.7);
+}
 body {
   background-color: rgb(95, 76, 76);
   line-height: 1.5;
@@ -158,12 +164,6 @@ body {
 .list-secondary .list-element-tertiary:hover {
   color: rgb(255, 0, 255);
 }
-:root {
-  --listColor: rgb(44, 43, 43);
-  --listBackgroundMain: rgba(233, 224, 224, 0.3);
-  --listBackgroundHover: rgba(233, 224, 224, 0.6);
-  --listBackgroundSec: rgba(0, 0, 0, 0.7);
-}
 
 li::selection {
   background-color: rgb(255, 0, 0);
@@ -189,12 +189,13 @@ li a {
 }
 .list > .list-primary {
   background-color: var(--listBackgroundMain);
-  background-image: radial-gradient(circle at top right,
-  var(--listBackgroundSec) 30%,
-  var(--listBackgroundMain) 70%);
+  background-image: radial-gradient(
+    circle at top right,
+    var(--listBackgroundSec) 30%,
+    var(--listBackgroundMain) 70%
+  );
   max-width: 70%;
   border-radius: 25px;
- 
 }
 .list > .list-secondary {
   background-color: var(--listBackgroundMain);
