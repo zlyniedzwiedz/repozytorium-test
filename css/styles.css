@@ -161,7 +161,7 @@ body {
 :root {
   --listColor: rgb(44, 43, 43);
   --listBackgroundMain: rgba(233, 224, 224, 0.3);
-  --listBackgroundHover: rgba(233, 224, 224, 0.5);
+  --listBackgroundHover: rgba(233, 224, 224, 0.6);
   --listBackgroundSec: rgba(0, 0, 0, 0.7);
 }
 
@@ -197,7 +197,7 @@ li a {
  
 }
 .list > .list-secondary {
-  background-color: rgba(233, 224, 224, 0.3);
+  background-color: var(--listBackgroundMain);
   background-image: none;
   max-width: 70%;
 
