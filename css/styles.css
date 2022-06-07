@@ -160,6 +160,9 @@ body {
 }
 :root {
   --listColor: rgb(44, 43, 43);
+  --listBackgroundMain: rgba(233, 224, 224, 0.3);
+  --listBackgroundHover: rgba(233, 224, 224, 0.5);
+  --listBackgroundSec: rgba(0, 0, 0, 0.7);
 }
 
 li::selection {
@@ -185,10 +188,13 @@ li a {
   text-decoration: none;
 }
 .list > .list-primary {
-  background-color: rgba(233, 224, 224, 0.3);
-  background-image: none;
+  background-color: var(--listBackgroundMain);
+  background-image: radial-gradient(circle at top right,
+  var(--listBackgroundSec) 30%,
+  var(--listBackgroundMain) 70%);
   max-width: 70%;
   border-radius: 25px;
+ 
 }
 .list > .list-secondary {
   background-color: rgba(233, 224, 224, 0.3);
@@ -203,10 +209,10 @@ li a {
   justify-content: right;
 }
 .list > .list-secondary:hover {
-  background-color: rgba(233, 224, 224, 0.5);
+  background-color: var(--listBackgroundHover);
 }
 .list > .list-primary:hover {
-  background-color: rgba(233, 224, 224, 0.5);
+  background-color: var(--listBackgroundHover);
 }
 #to-do-list,
 #second-to-do-list {
