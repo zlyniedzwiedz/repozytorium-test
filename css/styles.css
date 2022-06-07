@@ -9,6 +9,8 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  
 }
 .wrapper {
   display: flex;
@@ -81,7 +83,6 @@ body {
   background-color: transparent;
   padding-left: 75px;
   padding-right: 25px;
-
   background-image: url(/images/viking-icon.svg);
   background-size: auto;
   background-repeat: no-repeat;
