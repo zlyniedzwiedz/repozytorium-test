@@ -255,8 +255,10 @@ li a {
   height: 32px;
   width: 32px;
 }
-.btn-color {
+.inside-acc-color {
   color: rgb(218, 31, 31);
   background-color: black;
-  
+}
+.accordion-item {
+  max-width: 60%;
 }
