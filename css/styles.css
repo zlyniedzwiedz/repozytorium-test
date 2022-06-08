@@ -255,7 +255,8 @@ li a {
   height: 32px;
   width: 32px;
 }
-.accordion-text {
-  color: rgb(0, 255, 55);
-  background-image: url(/images/background-image-dark.webp);
+.btn-color {
+  color: rgb(218, 31, 31);
+  background-color: black;
+  
 }
