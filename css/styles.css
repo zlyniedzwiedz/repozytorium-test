@@ -207,7 +207,7 @@ li a {
 .list-footer {
   display: flex;
   color: #fff;
-  justify-content: right;
+  justify-content: center;
 }
 .list > .list-secondary:hover {
   background-color: var(--listBackgroundHover);
@@ -258,25 +258,4 @@ li a {
 .inside-acc-color {
   color: rgb(218, 31, 31);
   background-color: black;
-}
-.accordion-item {
-  
-  margin-left: 250px;
-}
-
-button.accordion-button.btn-color {
-  color: rgb(255, 0, 0);
-  background-color: rgb(90, 86, 86);
-  border-radius: 30px;
- 
-}
-.accordion {
-  margin: 60px;
-  max-width: 60%;
-
-}
-button.accordion-button.btn-color.collapsed {
-  color: rgb(255, 0, 0);
-  background-color: rgb(90, 86, 86);
- border-radius: 30px;
 }
