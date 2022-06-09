@@ -259,3 +259,8 @@ li a {
   color: rgb(218, 31, 31);
   background-color: black;
 }
+.site-footer {
+  display: flex;
+  color: blueviolet;
+  justify-content: space-evenly;
+}
