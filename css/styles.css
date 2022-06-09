@@ -153,8 +153,7 @@ body {
   list-style-type: none;
 }
 .list-element-primary::after,
-.list-element-secondary::after
- {
+.list-element-secondary::after {
   content: "";
   width: 24px;
   height: 24px;
@@ -274,7 +273,6 @@ li a {
   height: 32px;
   width: 32px;
 }
-
 
 .site-footer {
   display: flex;
