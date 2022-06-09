@@ -16,6 +16,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  min-height: 100vh;
 }
 .wrapper {
   display: flex;
@@ -73,7 +74,7 @@ body {
   text-transform: uppercase;
 }
 .cards {
-  max-width: 95%;
+  max-width: 100vw;
   margin-top: 30px;
   margin-left: 120px;
   margin-right: 120px;
@@ -235,11 +236,11 @@ li a {
 }
 #to-do-list,
 #second-to-do-list {
-  background-position: left;
+  background-position: 0vw;
 }
 #shopping-list,
 #second-shopping-list {
-  background-position: right;
+  background-position: 61vw;
 }
 .button-nav {
   background-color: transparent;
@@ -273,10 +274,8 @@ li a {
   height: 32px;
   width: 32px;
 }
-.inside-acc-color {
-  color: rgb(218, 31, 31);
-  background-color: black;
-}
+
+
 .site-footer {
   display: flex;
   color: blueviolet;
