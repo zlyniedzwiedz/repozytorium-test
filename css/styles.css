@@ -151,11 +151,29 @@ body {
   list-style-image: none;
   list-style-type: none;
 }
-.list-element-secondary-last:hover,
-.list-element-primary-last:hover,
+.list-element-primary::after,
+.list-element-secondary::after
+ {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+}
+
 .list-element-primary:hover,
 .list-element-secondary:hover {
   color: rgb(241, 241, 210);
+}
+.list-element-primary::after,
+.list-element-secondary::after {
+  display: none;
+  margin-left: 16px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/599/599502.png");
+}
+
+.list-element-primary:hover::after,
+.list-element-secondary:hover::after {
+  display: inline-block;
 }
 
 .list-primary .list-element-tertiary:hover {
